@@ -1,9 +1,15 @@
-Start: go run main.go
 
-Testing: 
+
+        Start: go run main.go
+
+        
+        Testing: 
+        
         Postman:
+        
         GET http://localhost:8000/
         "Welcome to the TODO API!"
+
         
         POST http://localhost:8000/todos
         Body -> raw -> JSON
